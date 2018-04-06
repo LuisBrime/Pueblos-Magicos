@@ -13,12 +13,9 @@ Talpa+de+Allende+Jalisco|Lagos+de+Moreno+Jalisco|Mezamitla+Jalisco|Mascota+Jalis
 
 Jiquilpan+Michoacan|Tzintzuntzan+Michoacan|Tlalpujahua+Michoacan|Tlayacapan+Morelos|Tepoztlan+Morelos|Jala+Nayarit|Sayulita+Nayarit|Tequisquiapan+Queretaro|Cadereyta+Queretaro|Jalpan+de+Serra+Queretaro
 
-San+Joaquin+Queretaro|Bernal+Queretaro|Xilitla+San+Luis+Potosi|Real+de+Catorce+San+Luis+Potosi|Tlaxco+Tlaxcala|Huamantla+Tlaxcala
-Jerez+Zacatecas|Nochistlan+Zacatecas|Pinos+Zacatecas
+San+Joaquin+Queretaro|Bernal+Queretaro|Xilitla+San+Luis+Potosi|Real+de+Catorce+San+Luis+Potosi|Tlaxco+Tlaxcala|Huamantla+Tlaxcala|Jerez+Zacatecas|Nochistlan+Zacatecas|Pinos+Zacatecas|Teul+Zacatecas
 
-Teul+Zacatecas|Sombrerete+Zacatecas
-
-Palizada+Campeche|San+Cristobal+de+las+Casas+Chiapas|Chiapa+de+Corzo+Chiapas|Comitan+Chiapas|Palenque+Chiapas|Capulalpam+Oaxaca|Huautla+de+Jimenez+Oaxaca|San+Pablo+Villa+de+Mitla+Oaxaca|Mazunte+Oaxaca|Cuetzalan+Puebla
+Sombrerete+Zacatecas|Palizada+Campeche|San+Cristobal+de+las+Casas+Chiapas|Chiapa+de+Corzo+Chiapas|Comitan+Chiapas|Palenque+Chiapas|Capulalpam+Oaxaca|Huautla+de+Jimenez+Oaxaca|San+Pablo+Villa+de+Mitla+Oaxaca|Mazunte+Oaxaca|Cuetzalan+Puebla
 
 Atlixco+Puebla|Chignahuapan+Puebla|Huachinango+Puebla|Pahuatlan+Puebla|Tlatlauquitepec+Puebla|Xochitepec+Puebla|Zacatlan+de+las+Manzanas+Puebla|Cholula+Puebla|Tapijulapa+Tabasco|Isla+Mujeres+Quintana+Roo
 
