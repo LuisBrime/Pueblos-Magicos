@@ -1,6 +1,2 @@
-Tecate+Baja+California|Loreto+Baja+California+Sur|Todos+Santos+Baja+California+Sur|Batopilas+Chihuahua|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz
-Linares+Nuevo+Leon|Santiago+Nuevo+Leon|Cosala+Sinaloa|El+Rosario+Sinaloa|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz
-Tecate+Baja+California|Loreto+Baja+California+Sur|Todos+Santos+Baja+California+Sur|Batopilas+Chihuahua|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz
-Linares+Nuevo+Leon|Santiago+Nuevo+Leon|Cosala+Sinaloa|El+Rosario+Sinaloa|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz
-Tecate+Baja+California|Loreto+Baja+California+Sur|Todos+Santos+Baja+California+Sur|Batopilas+Chihuahua|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz
-Linares+Nuevo+Leon|Santiago+Nuevo+Leon|Cosala+Sinaloa|El+Rosario+Sinaloa|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz|Papantla+Veracruz|Zozocolco+Veracurz
+Tecate+Baja+California
+Isla+Mujeres+Quintana+Roo
