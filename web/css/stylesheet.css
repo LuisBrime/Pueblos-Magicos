@@ -1,0 +1,50 @@
+
+.body{
+    background-color: antiquewhite;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+.container-fluid {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 44px;
+    background-color:darkred;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+    
+}
+
+.TextoRuta {
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+    
+}
+
+.BotonRuta {
+    text-align: center;
+    color: white;
+    background-color: #4CAF50; 
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 45%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+.h3{
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+    
+    
+}
+img{
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
