@@ -2,6 +2,28 @@ import json
 import requests
 import time
 
+#######################
+#### JUSTIFICACION ####
+#######################
+# Después de hacer una investigación y un análisis del problema, determinamos que,
+# al ser el problema de visitar un conjunto de ciudades con la mejor ruta posible un problema NP,
+# cualquier solución que pudiéramos dar: no iba a ser la más óptima o no íbamos a poder recorrer todas los pueblos.
+#
+# Tuvimos dos opciones al momento de hacer el algoritmo:
+# 1. Separar los pueblos en grupos y conseguir la mejor ruta de ahí para después unirlos.
+# 2. Buscar la mejor ruta posible a todos los pueblos.
+#
+# Decidimos tomar la opción 2 e implementar el algoritmo de Dijkstra para poder encontrar la ruta más óptima
+# basada en distancia entre ciudades.
+#
+# Al analizar el código del algoritmo, llegamos a la conclusión de que la complejidad en el peor de los casos era:
+# O(V) = V^2 + 5V
+# Donde V es el número de vértices (pueblos) que tiene nuestro grafo.
+#
+# NOTA: Los archivos: test.py, test_api.py, test.txt fueron usados para hacer pruebas del algoritmo y el API de Google,
+# el archivo con el proyecto es main.py
+
+
 #########################
 #### DATA STRUCTURES ####
 #########################
@@ -59,8 +81,8 @@ class Graph:
         if to not in self.vertsd:
             self.addvertex(to)
 
-        self.vertsd[frm].addneighbor(self.vertsd[to], cost)
-        self.vertsd[to].addneighbor(self.vertsd[frm], cost)
+        self.vertsd[frm].addneighbor(to, cost)
+        self.vertsd[to].addneighbor(frm, cost)
 
     def getvertices(self):
         return self.vertsd.keys()
@@ -78,7 +100,7 @@ def dijkstra(graph, start, end):
 
     while not f.empty():
         current = f.get()
-        print(current, '\n')
+        #print(current, '\n')
 
         if current == end:
             break
@@ -112,13 +134,9 @@ def sendpayload(url, payload):
 #######################
 def add2graph(r, graph):
     for isrc, src in enumerate(r['origin_addresses']):
-        if src not in graph.vertsd:
-            graph.addvertex(src)
         for idst, dst in enumerate(r['destination_addresses']):
             row = r['rows'][isrc]
             cell = row['elements'][idst]
-            if dst not in graph.vertsd:
-                graph.addvertex(dst)
             graph.addedge(src, dst, cell['distance']['value'])
     return graph
 
@@ -127,7 +145,7 @@ def add2graph(r, graph):
 #### MAIN ####
 ##############
 if __name__ == '__main__':
-    key = 'AIzaSyB4JIdwOtl_8OLuw-NMr6EZ-3jz6emfKAc'
+    key = 'AIzaSyBiHTr04upF-LutsjtKYtO4QXXGSBOVCnQ'
     url = 'https://maps.googleapis.com/maps/api/distancematrix/json?'
 
     #### Sacar los pueblos de pueblos.txt ####
@@ -217,6 +235,6 @@ if __name__ == '__main__':
     print(time.clock(), ' time taked Dijkstra \n')
 
     file = open('lib/resultados.txt', 'w')
-    file.write(camino)
-    file.write(costo)
+    file.write(str(camino))
+    file.write(str(costo))
     file.close()

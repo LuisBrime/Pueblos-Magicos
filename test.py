@@ -52,15 +52,11 @@ class Graph:
         if to not in self.vertsd:
             self.addvertex(to)
 
-        self.vertsd[frm].addneighbor(self.vertsd[to], cost)
-        self.vertsd[to].addneighbor(self.vertsd[frm], cost)
+        self.vertsd[frm].addneighbor(to, cost)
+        self.vertsd[to].addneighbor(frm, cost)
 
     def getvertices(self):
         return self.vertsd.keys()
-
-
-
-
 
 def dijkstra(graph, start, end):
     f = PriorityQueue()
@@ -84,8 +80,6 @@ def dijkstra(graph, start, end):
                 f.put(n, priority)
                 came_from[n] = current
     return came_from, cost_so_far
-
-
 
 if __name__ == '__main__':
     g = Graph()
